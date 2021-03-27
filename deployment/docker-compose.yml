@@ -57,6 +57,7 @@ services:
     image: mysql:8.0
     restart: always
     environment:
+      - MYSQL_USER=${GHOST_DB_USER}
       - MYSQL_ROOT_PASSWORD=${GHOST_DB_PASSWORD}
     volumes:
       - /opt/ghost_mysql:/var/lib/mysql
