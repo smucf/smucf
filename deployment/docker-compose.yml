@@ -48,8 +48,8 @@ services:
       - database__connection__user=${GHOST_DB_USER}
       - database__connection__password=${GHOST_DB_PASSWORD}
       - database__connection__database=ghost
-      - VIRTUAL_HOST=https://beta.smucf.org
-      - LETSENCRYPT_HOST=https://beta.smucf.org
+      - VIRTUAL_HOST=beta.smucf.org
+      - LETSENCRYPT_HOST=beta.smucf.org
       - LETSENCRYPT_EMAIL=im@arnmk.com
     volumes:
       - /opt/ghost_content:/var/lib/ghost/content
