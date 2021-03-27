@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  proxy:
+    image: jwilder/nginx-proxy
+    restart: unless-stopped
+    labels:
+      com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy: "true"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs:rw
+      - vhost.d:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - ./disable_ip.conf:/etc/nginx/conf.d/disable_ip.conf:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - "default"
+      - "proxy-tier"
+  proxy-letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    restart: unless-stopped
+    environment:
+      - NGINX_PROXY_CONTAINER=proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs:rw
+      - vhost.d:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+    depends_on:
+      - "proxy"
+    networks:
+      - "default"
+      - "proxy-tier"
+
+
+  ghost:
+    image: ghost:latest
+    restart: always
+    depends_on:
+      - ghost-db
+    environment:
+      - url=https://beta.smucf.org
+      - database__client=mysql
+      - database__connection__host=ghost-db
+      - database__connection__user=${GHOST_DB_USER}
+      - database__connection__password=${GHOST_DB_PASSWORD}
+      - database__connection__database=ghost
+      - VIRTUAL_HOST=https://beta.smucf.org
+      - LETSENCRYPT_HOST=https://beta.smucf.org
+      - LETSENCRYPT_EMAIL=im@arnmk.com
+    volumes:
+      - /opt/ghost_content:/var/lib/ghost/content
+  ghost-db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=${GHOST_DB_PASSWORD}
+    volumes:
+      - /opt/ghost_mysql:/var/lib/mysql
+
+volumes:
+  certs:
+  vhost.d:
+  html:
+
+networks:
+  proxy-tier:
+    external:
+      name: nginx-proxy
