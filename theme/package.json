@@ -1,0 +1,73 @@
+{
+    "name": "new-self",
+    "version": "1.0.0",
+    "description": "Ghost theme for SMU Christian Fellowship named after Colossians 3:10",
+    "main": "index.js",
+    "repository": "https://github.com/smucf/smucf",
+    "license": "MIT",
+    "author": {
+        "email": "gac@smucf.org"
+    },
+    "engines": {
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
+    },
+    "scripts": {
+        "dev": "gulp",
+        "zip": "gulp zip",
+        "test": "gscan .",
+        "test:ci": "gscan --fatal --verbose .",
+        "pretest": "gulp build",
+        "preship": "yarn test"
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "beeper": "^2.1.0",
+        "cssnano": "^4.1.10",
+        "gscan": "^4.0.1",
+        "gulp": "^4.0.2",
+        "gulp-livereload": "^4.0.2",
+        "gulp-postcss": "^9.0.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "gulp-watch": "^5.0.1",
+        "gulp-zip": "^5.1.0",
+        "postcss": "^8.2.8",
+        "postcss-color-mod-function": "^3.0.3",
+        "postcss-easy-import": "^3.0.0",
+        "pump": "^3.0.0"
+    },
+    "bugs": "https://github.com/smucf/smucf/issues",
+    "contributors": "https://github.com/smucf/smucf/graphs/contributors",
+    "browserslist": [
+        "defaults"
+    ],
+    "config": {
+        "posts_per_page": 15,
+        "image_sizes": {
+            "xxs": {
+                "width": 30
+            },
+            "xs": {
+                "width": 100
+            },
+            "s": {
+                "width": 300
+            },
+            "m": {
+                "width": 600
+            },
+            "l": {
+                "width": 1200
+            },
+            "xl": {
+                "width": 2000
+            }
+        }
+    }
+}
