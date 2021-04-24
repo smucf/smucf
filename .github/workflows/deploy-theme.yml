@@ -15,6 +15,10 @@ jobs:
         working-directory: theme
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -26,4 +30,4 @@ jobs:
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
-          file: dist/new-self.zip
+          file: theme/dist/new-self.zip
