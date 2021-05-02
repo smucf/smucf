@@ -45,6 +45,41 @@
     max-height: 40px;
 }
 
+.gh-head-hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.gh-head-hero img {
+    filter: brightness(60%);
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+
+.gh-head-hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    max-width: 700px;
+    transform: translate(-5%, -50%);
+    color: white;
+}
+
+h1.gh-head-hero-text {
+    font-size: 3.6rem;
+}
+
+@media (max-width: 900px) {
+    h1.gh-head-hero-text {
+        font-size: 2.6rem;
+    }
+}
 
 /* Primary Navigation
 /* ---------------------------------------------------------- */

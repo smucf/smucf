@@ -1,0 +1,25 @@
+{{!< default}}
+
+<div class="gh-head-hero">
+    <img src="{{@site.cover_image}}">
+    <div class="gh-container">
+        <h1 class="gh-head-hero-text">{{@site.description}}</h1>
+    </div>
+</div>
+
+{{#is "home"}}
+{{#get "pages" filter="tags:event" limit="6" as |event_page|}}
+<div class="event-pages">
+    {{#foreach event_page}}
+    <div class="event-card">
+    </div>
+    {{/foreach}}
+</div>
+{{/get}}
+{{/is}}
+
+{{#page}}
+<div class="gh-homepage">
+    {{content}}
+</div>
+{{/page}}
