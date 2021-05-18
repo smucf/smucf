@@ -789,12 +789,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"beeper@npm:2.1.0":
-  version: 2.1.0
-  resolution: "beeper@npm:2.1.0"
+"beeper@npm:3.0.0":
+  version: 3.0.0
+  resolution: "beeper@npm:3.0.0"
   dependencies:
-    yoctodelay: ^1.1.0
-  checksum: 1ea941f30e62ae18d27536f38840607d8a311f41f08879720a83121d7773b1570a98181f27243673e4a0ef1bc70ccbad5374318beb0bf7997126782d6bb1da77
+    yoctodelay: ^1.2.0
+  checksum: a7b61155d99595b22ef4814be284a3cc97370cbf1d563d5acb027897eb1ddab571c744d9242235d344df450981e343f0b86db7f1ad011a50cc0aae21e678e106
   languageName: node
   linkType: hard
 
@@ -4783,7 +4783,7 @@ fsevents@^1.2.7:
   resolution: "new-self@workspace:."
   dependencies:
     autoprefixer: 10.2.5
-    beeper: 2.1.0
+    beeper: 3.0.0
     cssnano: 5.0.2
     gscan: 4.0.2
     gulp: 4.0.2
@@ -7677,7 +7677,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"yoctodelay@npm:^1.1.0":
+"yoctodelay@npm:^1.2.0":
   version: 1.2.0
   resolution: "yoctodelay@npm:1.2.0"
   checksum: 2389b4d36449ba61a354298e73ad624aeede5072793207cb69d728d9fa5bf27a80b57a1a8734045a167f3669ce9cd9d3564cf5e5b24d6b508d9e0d89f53b3b1e

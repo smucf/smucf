@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["autoprefixer", "virtual:5a020af113610cb90bc5b7bf6afdadcd405106cca266c2c62b9f0c77c8ee9179969094eac7a8b150efb6b3d1acb070c515cd2bba05fa35aae76bb51c485f6b25#npm:10.2.5"],
-            ["beeper", "npm:2.1.0"],
+            ["beeper", "npm:3.0.0"],
             ["cssnano", "virtual:5a020af113610cb90bc5b7bf6afdadcd405106cca266c2c62b9f0c77c8ee9179969094eac7a8b150efb6b3d1acb070c515cd2bba05fa35aae76bb51c485f6b25#npm:5.0.2"],
             ["gscan", "npm:4.0.2"],
             ["gulp", "npm:4.0.2"],
@@ -955,10 +955,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["beeper", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/beeper-npm-2.1.0-886c0b0adf-1ea941f30e.zip/node_modules/beeper/",
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/beeper-npm-3.0.0-4ade81ad47-a7b61155d9.zip/node_modules/beeper/",
           "packageDependencies": [
-            ["beeper", "npm:2.1.0"],
+            ["beeper", "npm:3.0.0"],
             ["yoctodelay", "npm:1.2.0"]
           ],
           "linkType": "HARD",
@@ -5456,7 +5456,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["new-self", "workspace:."],
             ["autoprefixer", "virtual:5a020af113610cb90bc5b7bf6afdadcd405106cca266c2c62b9f0c77c8ee9179969094eac7a8b150efb6b3d1acb070c515cd2bba05fa35aae76bb51c485f6b25#npm:10.2.5"],
-            ["beeper", "npm:2.1.0"],
+            ["beeper", "npm:3.0.0"],
             ["cssnano", "virtual:5a020af113610cb90bc5b7bf6afdadcd405106cca266c2c62b9f0c77c8ee9179969094eac7a8b150efb6b3d1acb070c515cd2bba05fa35aae76bb51c485f6b25#npm:5.0.2"],
             ["gscan", "npm:4.0.2"],
             ["gulp", "npm:4.0.2"],
