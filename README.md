@@ -14,11 +14,14 @@ You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and
 
 
 ```bash
+# Set `theme` as the working directory
+cd theme
+
 # Install
-yarn --cwd theme
+yarn
 
 # Run build & watch for changes
-yarn --cwd theme dev
+yarn dev
 ```
 
 Now you can edit `theme/assets/css/` files, which will be compiled to `theme/assets/built/` automatically.
