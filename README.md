@@ -29,7 +29,7 @@ Now you can edit `theme/assets/css/` files, which will be compiled to `theme/ass
 The `zip` Gulp task packages the theme files into `theme/dist/new-self.zip`, which is used for the theme.
 
 ```bash
-yarn --cwd theme zip
+yarn zip
 ```
 
 ## Integration Test
