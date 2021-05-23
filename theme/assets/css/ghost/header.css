@@ -56,10 +56,9 @@
     filter: brightness(60%);
     width: 100%;
     height: auto;
-    max-height: 700px;
+    max-height: 800px;
     object-fit: cover;
 }
-
 
 .gh-head-hero-text {
     text-align: left;
