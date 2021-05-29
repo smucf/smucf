@@ -3,12 +3,28 @@
 <main class="gh-main">
     <div class="gh-page">
         <div class="gh-container">
+            <div class="site-description">
+                <h1>{{@site.description}}</h1>
+            </div>
             <div class="gh-hero">
                 <div class="img-container">
                     <img src="{{@site.cover_image}}">
                 </div>
-                <div class="description-container">
-                    <h1>{{@site.description}}</h1>
+                <div class="latest-posts-container">
+                <h2>News</h2>
+                {{#get "posts" limit="5" order="published_at desc" }}
+                    {{#foreach posts}}
+                        <a href="{{url}}">
+                            <div class="post-card">
+                                <h3>{{ title }}</h3>
+                                <p>{{ excerpt }}</p>
+                            </div>
+                        </a>
+                    {{/foreach}}
+                {{/get}}
+                    <div class="bottom-container">
+                        <a href="/news">Browse all</a>
+                    </div>
                 </div>
             </div>
 
@@ -16,30 +32,34 @@
             {{#get "pages" filter="tags:event" limit="6" as |event_pages|}}
             <div class="event-pages">
                 <h2>Events</h2>
+                <div class="event-cards-container">
                 {{#foreach event_pages}}
-                <div class="event-card">
-                    <div>
-                        <img class="event-card-img"
-                            srcset="{{img_url feature_image size="s"}} 300w,
-                                    {{img_url feature_image size="m"}} 600w,
-                                    {{img_url feature_image size="l"}} 1000w,
-                                    {{img_url feature_image size="xl"}} 2000w"
-                            sizes="(max-width: 1000px) 400px, 700px"
-                            src="{{img_url feature_image size="m"}}"
-                            alt="{{title}}"
-                        />
+                    <div class="event-card">
+                        <div class="img-container">
+                            <img class="event-card-img"
+                                srcset="{{img_url feature_image size="s"}} 300w,
+                                        {{img_url feature_image size="m"}} 600w,
+                                        {{img_url feature_image size="l"}} 1000w,
+                                        {{img_url feature_image size="xl"}} 2000w"
+                                sizes="(max-width: 1000px) 400px, 700px"
+                                src="{{img_url feature_image size="m"}}"
+                                alt="{{title}}"
+                            />
+                        </div>
+                        <div class="content">
+                            <h3>{{ title }}</h3>
+                            <p>{{ excerpt }}</p>
+                            <a href="{{ url }}"><button class="gh-button gh-button-medium">Find out more</button></a>
+                        </div>
                     </div>
-                    <h3>{{ title }}</h3>
-                    <p>{{ excerpt }}</p>
-                    <a href="{{ url }}">Find out more >></a>
-                </div>
                 {{/foreach}}
+                </div>
             </div>
             {{/get}}
             {{/is}}
 
             {{#page}}
-            <div class="gh-homepage">
+            <div class="gh-home-content">
                 {{content}}
             </div>
             {{/page}}
