@@ -236,3 +236,44 @@ html,
         font-size: 1.6rem;
     }
 }
+
+/* Home Page
+/* ---------------------------------------------------------- */
+
+.gh-hero {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.gh-hero .img-container {
+    width: 60%;
+}
+
+.gh-hero .description-container {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.gh-hero h1 {
+    font-size: 3.6rem;
+}
+
+@media (max-width: 900px) {
+    .gh-hero {
+        display: block;
+    }
+
+    .gh-hero .img-container {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .gh-hero .description-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .gh-hero h1 {
+        font-size: 2.6rem;
+    }
+}
