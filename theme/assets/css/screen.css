@@ -55,6 +55,10 @@ html,
     padding: 8vmin 0;
 }
 
+.gh-postfeed h1 {
+    text-align: center;
+}
+
 .gh-container {
     width: 100%;
     max-width: 1200px;
