@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .gh-foot-menu .nav li {
@@ -40,7 +40,6 @@
     display: inline-block;
     padding: 3px 0;
     text-decoration: none;
-    box-shadow: 0 -1px 0 0 currentcolor inset;
 }
 
 .gh-foot-meta {
@@ -52,6 +51,6 @@
 
 @media (max-width: 700px) {
     .gh-foot-menu .nav {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
