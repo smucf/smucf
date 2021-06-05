@@ -242,7 +242,7 @@ html,
 /* ---------------------------------------------------------- */
 
 .site-description {
-    border-left: 5px solid color-mod(var(--color-base) l(+60%));
+    border-left: 5px solid color-mod(var(--color-primary) l(+20%));
     padding-left: 2rem;
     width: 80%;
     margin-top: 4rem;
@@ -276,7 +276,7 @@ html,
 }
 
 .gh-hero .latest-posts-container .post-card {
-    border-bottom: 0.5px solid color-mod(var(--color-base) l(+80%));
+    border-bottom: 0.5px solid color-mod(var(--color-primary) l(+20%));
 }
 
 .gh-hero .latest-posts-container .post-card h3 {
