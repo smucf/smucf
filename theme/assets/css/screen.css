@@ -412,12 +412,9 @@ html,
         overflow: hidden;
     }
 
-    .event-card:first-child {
-        margin-left: auto;
-    }
-
-    .event-card:last-child {
-        margin-right: auto;
+    .event-card {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .event-card img {
