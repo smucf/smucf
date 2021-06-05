@@ -7,6 +7,10 @@ collections:
   /news/:
     permalink: /news/{slug}/
     template: index
+    filter: tag:news+tag:-resources
+  /resources/:
+    permalink: /resources/{slug}/
+    filter: tag:resources+tag:-news
 
 taxonomies:
   tag: /tag/{slug}/

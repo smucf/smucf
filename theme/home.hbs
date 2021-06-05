@@ -12,7 +12,7 @@
                 </div>
                 <div class="latest-posts-container">
                 <h2>News</h2>
-                {{#get "posts" limit="5" order="published_at desc" }}
+                {{#get "posts" filter="tags:news" limit="5" order="published_at desc" }}
                     {{#foreach posts}}
                         <a href="{{url}}">
                             <div class="post-card">
