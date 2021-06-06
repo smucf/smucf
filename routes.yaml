@@ -7,11 +7,11 @@ collections:
   /news/:
     permalink: /news/{slug}/
     template: index
-    filter: tag:news+tag:-resources
+    filter: tag:news+tag:-resource
   /resources/:
     permalink: /resources/{slug}/
     template: resources
-    filter: tag:resources+tag:-news
+    filter: tag:resource+tag:-news
 
 taxonomies:
   tag: /tag/{slug}/
