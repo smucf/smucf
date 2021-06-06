@@ -7,6 +7,8 @@ used for other small organisations.
 ## How to use
 
 Create a page called `Home`. It should also have the page url `home`.
+This theme also expects the site to have a cover image which it
+will use in the home page.
 
 Under the header `Events`, up to a maximum of 6 pages with the tag `event` are
 displayed in cards.
