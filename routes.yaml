@@ -2,10 +2,9 @@ routes:
   /:
     data: page.home
     template: home
-  /rss/:
-    template: rss
+  /news/rss/:
+    template: news/rss
     content_type: text/xml
-    filter: tag:news+tag:-resource
 
 collections:
   /news/:
