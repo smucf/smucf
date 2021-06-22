@@ -85,85 +85,85 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/core@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/core@npm:6.2.5"
+"@sentry/core@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/core@npm:6.7.1"
   dependencies:
-    "@sentry/hub": 6.2.5
-    "@sentry/minimal": 6.2.5
-    "@sentry/types": 6.2.5
-    "@sentry/utils": 6.2.5
+    "@sentry/hub": 6.7.1
+    "@sentry/minimal": 6.7.1
+    "@sentry/types": 6.7.1
+    "@sentry/utils": 6.7.1
     tslib: ^1.9.3
-  checksum: 609156dd000a8ba5e593c60e74f957248a38e7cd0707e600204a9c9a0c417b95388886ea52d2441ee41523b7dadfb269098af56609db28c53146f711b3605a80
+  checksum: 6911f265d0bdd896579a31369df96276967e43df078400daaee498b16764bd49a993be1ecf5c8305b094c382e41084284f99823dce419078b4f0739b2066c1ae
   languageName: node
   linkType: hard
 
-"@sentry/hub@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/hub@npm:6.2.5"
+"@sentry/hub@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/hub@npm:6.7.1"
   dependencies:
-    "@sentry/types": 6.2.5
-    "@sentry/utils": 6.2.5
+    "@sentry/types": 6.7.1
+    "@sentry/utils": 6.7.1
     tslib: ^1.9.3
-  checksum: 60bc51afddbe4629650ddaf06c69ce03de07a7a9c9e49374ac0f16acb6d9ac11aef5697755e792f3f008657f00cfd0174a45968795b3191956694e32396503d0
+  checksum: f996dd6c250a828820ecc2a4e61a42c826e28ce214de7a589dcbb3914237c57646c1249a6655b44824b4548ee762fc6f217b72e8b1e66364871b5769c423e9be
   languageName: node
   linkType: hard
 
-"@sentry/minimal@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/minimal@npm:6.2.5"
+"@sentry/minimal@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/minimal@npm:6.7.1"
   dependencies:
-    "@sentry/hub": 6.2.5
-    "@sentry/types": 6.2.5
+    "@sentry/hub": 6.7.1
+    "@sentry/types": 6.7.1
     tslib: ^1.9.3
-  checksum: 038a7e9bd5b307ef0ef2156bfa132766f3f7c93b863f2cd698919920d9a149fe243a8c723c60ff1f917c5803091717463c99f62182865c629f2deeb3b0f4dc09
+  checksum: 1e10e0904d5bb58b61b9bb8b09bf18c529a03f8a249d0c7c8e79d196b633ceac180c667f7c1b82fcd8a44c7c052e61edeed6b8a5f20a1932af8e62320aef6d72
   languageName: node
   linkType: hard
 
-"@sentry/node@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/node@npm:6.2.5"
+"@sentry/node@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/node@npm:6.7.1"
   dependencies:
-    "@sentry/core": 6.2.5
-    "@sentry/hub": 6.2.5
-    "@sentry/tracing": 6.2.5
-    "@sentry/types": 6.2.5
-    "@sentry/utils": 6.2.5
+    "@sentry/core": 6.7.1
+    "@sentry/hub": 6.7.1
+    "@sentry/tracing": 6.7.1
+    "@sentry/types": 6.7.1
+    "@sentry/utils": 6.7.1
     cookie: ^0.4.1
     https-proxy-agent: ^5.0.0
     lru_map: ^0.3.3
     tslib: ^1.9.3
-  checksum: f546f0a45053d233913a3d35c665fa18e5ef1bfc11696c5bd894359b465be360f849f9c18780294f9ad453b8599d0146162cbd8cab6b3877895d663a868ee14f
+  checksum: 1551e120035bd15432087e237d561aa1c80529077492a78b30e4774bd3ffa825647f64660737187d35b7be82f08eb0f91661ef63b1bd3c703afce36197953131
   languageName: node
   linkType: hard
 
-"@sentry/tracing@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/tracing@npm:6.2.5"
+"@sentry/tracing@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/tracing@npm:6.7.1"
   dependencies:
-    "@sentry/hub": 6.2.5
-    "@sentry/minimal": 6.2.5
-    "@sentry/types": 6.2.5
-    "@sentry/utils": 6.2.5
+    "@sentry/hub": 6.7.1
+    "@sentry/minimal": 6.7.1
+    "@sentry/types": 6.7.1
+    "@sentry/utils": 6.7.1
     tslib: ^1.9.3
-  checksum: 335f175471268e6dbcf100cf9da06f714545c7e3d116af2eb667bf9550c32ebee71d78ddae437ad1eb2cd4d778061358c4fc75eeee25838297ee686c3b7ee464
+  checksum: 5f96b8b0bb30e2c3de8d366aeaf663d9f71c773877e4efcbdbe64f8c96ea2a09b850464b6e50e0705be0db32f81dfab7b8f529d1b9747d29eab865fcb3b99784
   languageName: node
   linkType: hard
 
-"@sentry/types@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/types@npm:6.2.5"
-  checksum: d9c8c9182bd674206618d3cf7fe296ad98b31bafa1ea9da0e5a5dda00bb1047c84bda44af8161efb13d90b2c215380fe32c9220ce5121be9bc8f410b46e50644
+"@sentry/types@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/types@npm:6.7.1"
+  checksum: e6fdeaa9518a55e7e51c39b60c812bb38933a5c8dbe0984d2b64de9c30ea56925a2f09e719fa15e25bd996b11bdd3e29c7b221af59a6baab5bfbcc01a6cf3a50
   languageName: node
   linkType: hard
 
-"@sentry/utils@npm:6.2.5":
-  version: 6.2.5
-  resolution: "@sentry/utils@npm:6.2.5"
+"@sentry/utils@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@sentry/utils@npm:6.7.1"
   dependencies:
-    "@sentry/types": 6.2.5
+    "@sentry/types": 6.7.1
     tslib: ^1.9.3
-  checksum: 641a0c0e1a363af3896bf8a6d00f7b84edaab0f4e1084ab7c5b03b4788484078e2cf1f2a4a2e64f96d3746fa28c5980761e48900aa94c6739828c8489d9622cc
+  checksum: 7579666a37819bad85ec247574dbd4e000d23f254d5005037c86686d736f3a5346fc88d9df59a17c13372f68d1787f587f2237624792c0598697db8bb3794bdd
   languageName: node
   linkType: hard
 
@@ -192,25 +192,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tryghost/pretty-cli@npm:1.2.16":
-  version: 1.2.16
-  resolution: "@tryghost/pretty-cli@npm:1.2.16"
+"@tryghost/pretty-cli@npm:1.2.18":
+  version: 1.2.18
+  resolution: "@tryghost/pretty-cli@npm:1.2.18"
   dependencies:
-    chalk: 4.1.0
-    sywac: 1.3.0
-  checksum: 6353f18189ae947db7b4daaee04b958116bca5dddd8afebe4d43571c44fcb9efa0bd4c384e8a0e10aec9a7420a4f6cda6858268f4cc592d4e97d04c121b11499
+    chalk: ^4.1.0
+    sywac: ^1.3.0
+  checksum: a92063b701e0067e4999c9dbadfefad60d11025595cf3cabcea2a18329b094837bc58c18d7f389a771113295ad3d2bf86a8d3e276a71d3986558c9f72c3c08e2
   languageName: node
   linkType: hard
 
-"@tryghost/zip@npm:1.1.11":
-  version: 1.1.11
-  resolution: "@tryghost/zip@npm:1.1.11"
+"@tryghost/root-utils@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@tryghost/root-utils@npm:0.1.0"
   dependencies:
-    archiver: 4.0.2
-    bluebird: 3.7.2
+    caller: ^1.0.1
+    find-root: ^1.1.0
+  checksum: ca79df9f606c6f8d2db73bb0dc4f2b569be357afc7027449099e84725c75a1266a43d051f6378ee71ab88b01fe8217826e99d99d072d89baea4ab716c0f4b593
+  languageName: node
+  linkType: hard
+
+"@tryghost/zip@npm:1.1.12":
+  version: 1.1.12
+  resolution: "@tryghost/zip@npm:1.1.12"
+  dependencies:
+    archiver: ^4.0.2
+    bluebird: ^3.7.2
     extract-zip: 2.0.0
-    fs-extra: 9.1.0
-  checksum: c4321705971e84946be28bd5042e17df08aaf167c114d5c9bdbe8b1f15d41a44bf9a438460276995614666138d9a018233751bb2b99c626368880d1d5082c469
+    fs-extra: ^9.1.0
+  checksum: c1566518ea667abb9d0a80fc747c8fa46e08d3e3e11d9dd5a963db0d5e4fe6b2e41688440b6f050dc800ef254e048485da81065d9835420abdbd0b8fbdf2f013
   languageName: node
   linkType: hard
 
@@ -444,7 +454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"archiver@npm:4.0.2":
+"archiver@npm:^4.0.2":
   version: 4.0.2
   resolution: "archiver@npm:4.0.2"
   dependencies:
@@ -825,7 +835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:3.7.2, bluebird@npm:^3.5.3":
+"bluebird@npm:3.7.2, bluebird@npm:^3.5.3, bluebird@npm:^3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
   checksum: 4f2288662f3d4eadbb82d4daa4a7d7976a28fa3c7eb4102c9b4033b03e5be4574ba123ac52a7c103cde4cb7b2d2afc1dbe41817ca15a29ff21ecd258d0286047
@@ -1081,7 +1091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caller@npm:1.0.1":
+"caller@npm:1.0.1, caller@npm:^1.0.1":
   version: 1.0.1
   resolution: "caller@npm:1.0.1"
   checksum: 3afb54a17ec5b912a6a999a7293f22c5757d8394cd142b116580b8b3ae1879ce06fb522623e31acf477653eb93640781ccd98986e07c458c1118b7a076bd763b
@@ -1135,13 +1145,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:4.1.0":
-  version: 4.1.0
-  resolution: "chalk@npm:4.1.0"
+"chalk@npm:4.1.1, chalk@npm:^4.1.0":
+  version: 4.1.1
+  resolution: "chalk@npm:4.1.1"
   dependencies:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
-  checksum: f860285b419f9e925c2db0f45ffa88aa8794c14b80cc5d01ff30930bcfc384996606362706f0829cf557f6d36152a5fb2d227ad63c4bc90e2ec9e9dbed4a3c07
+  checksum: 445c12db7aeed0046500a1e4184d31209a77d165654c885a789c41c8598a6a95bd2392180987cac572c967b93a2a730dda778bb7f87fa06ca63fd8592f8cc59f
   languageName: node
   linkType: hard
 
@@ -1153,16 +1163,6 @@ __metadata:
     escape-string-regexp: ^1.0.5
     supports-color: ^5.3.0
   checksum: 22c7b7b5bc761c882bb6516454a1a671923f1c53ff972860065aa0b28a195f230163c1d46ee88bcc7a03e5539177d896457d8bc727de7f244c6e87032743038e
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^4.1.0":
-  version: 4.1.1
-  resolution: "chalk@npm:4.1.1"
-  dependencies:
-    ansi-styles: ^4.1.0
-    supports-color: ^7.1.0
-  checksum: 445c12db7aeed0046500a1e4184d31209a77d165654c885a789c41c8598a6a95bd2392180987cac572c967b93a2a730dda778bb7f87fa06ca63fd8592f8cc59f
   languageName: node
   linkType: hard
 
@@ -2228,9 +2228,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-hbs@npm:2.3.5":
-  version: 2.3.5
-  resolution: "express-hbs@npm:2.3.5"
+"express-hbs@npm:2.4.0":
+  version: 2.4.0
+  resolution: "express-hbs@npm:2.4.0"
   dependencies:
     bluebird: ^3.5.3
     handlebars: ^4.7.7
@@ -2240,7 +2240,7 @@ __metadata:
   dependenciesMeta:
     js-beautify:
       optional: true
-  checksum: 114eedd238caf74e85c5400293b88755de46b3d79ab427cd18d643f21400524cf36a5431116ccf793da09e48cf97e64ed0633ed3deba737695d95aaf5b296a90
+  checksum: 7905b90c39ae3204c02d0fdc947b75bad49512c1ac87fef12c341070faf03504e32835a132675686f2e44dab54c9bbda5fc1c8af5c33eb97a3871f07488cc7a1
   languageName: node
   linkType: hard
 
@@ -2489,7 +2489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-root@npm:1.1.0":
+"find-root@npm:1.1.0, find-root@npm:^1.1.0":
   version: 1.1.0
   resolution: "find-root@npm:1.1.0"
   checksum: 34f9eeb7258b3b5e270824a11bae4a8e6075efe79a319c034a3c5cae90cdb558c524c42ff7938b1200f648349c9dc04e860c8eaef852c802f5a1c26fa04d5ab1
@@ -2656,7 +2656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:9.1.0":
+"fs-extra@npm:9.1.0, fs-extra@npm:^9.1.0":
   version: 9.1.0
   resolution: "fs-extra@npm:9.1.0"
   dependencies:
@@ -2803,12 +2803,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ghost-ignition@npm:4.6.2":
-  version: 4.6.2
-  resolution: "ghost-ignition@npm:4.6.2"
+"ghost-ignition@npm:4.6.3":
+  version: 4.6.3
+  resolution: "ghost-ignition@npm:4.6.3"
   dependencies:
     "@tryghost/bunyan-rotating-filestream": 0.0.7
     "@tryghost/elasticsearch-bunyan": 0.1.1
+    "@tryghost/root-utils": ^0.1.0
     bunyan: 1.8.15
     bunyan-loggly: 1.4.2
     caller: 1.0.1
@@ -2822,7 +2823,7 @@ fsevents@^1.2.7:
     nconf: 0.11.2
     prettyjson: 1.2.1
     uuid: 8.3.2
-  checksum: a084019014f048ca901593baf26a4e68c3b49785e30600972742090d6964b804ab6528c0f1a8e1fa1231a5e5ece76bce493a0f48e11f0d92e3f5c1f41eb1ca1e
+  checksum: ce7e87980d87f7f7ce504cb5b502e63658c64eb48b21185a96c798dec3f75420a51fc6a13c271defe76edda2f4e6fe3ed90ae2be8afa2fd7bb6c30d25a7704ff
   languageName: node
   linkType: hard
 
@@ -2888,9 +2889,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"glob@npm:7.1.6, glob@npm:^7.0.3, glob@npm:^7.1.1, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
-  version: 7.1.6
-  resolution: "glob@npm:7.1.6"
+"glob@npm:7.1.7":
+  version: 7.1.7
+  resolution: "glob@npm:7.1.7"
   dependencies:
     fs.realpath: ^1.0.0
     inflight: ^1.0.4
@@ -2898,7 +2899,7 @@ fsevents@^1.2.7:
     minimatch: ^3.0.4
     once: ^1.3.0
     path-is-absolute: ^1.0.0
-  checksum: 789977b52432865bd63846da5c75a6efc2c56abdc0cb5ffcdb8e91eeb67a58fa5594c1195d18b2b4aff99675b0739ed6bd61024b26562e0cca18c8f993efdc82
+  checksum: 352f74f08247db5420161a2f68f2bd84b53228b5fcfc9dcc37cd54d3f19ec0232495d84aeff1286d0727059e9fdc1031400e00b971bdc59e30f8f82b199c9d02
   languageName: node
   linkType: hard
 
@@ -2912,6 +2913,20 @@ fsevents@^1.2.7:
     once: ^1.3.0
     path-is-absolute: ^1.0.0
   checksum: 83f9fcdca06df4a40cbf99f20877dbadc0def23fab197303a9a96f726e2f003d6c442b8d455b93745c0d05e6dd574929526db47852f12b762bc93023ba7e84db
+  languageName: node
+  linkType: hard
+
+"glob@npm:^7.0.3, glob@npm:^7.1.1, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
+  version: 7.1.6
+  resolution: "glob@npm:7.1.6"
+  dependencies:
+    fs.realpath: ^1.0.0
+    inflight: ^1.0.4
+    inherits: 2
+    minimatch: ^3.0.4
+    once: ^1.3.0
+    path-is-absolute: ^1.0.0
+  checksum: 789977b52432865bd63846da5c75a6efc2c56abdc0cb5ffcdb8e91eeb67a58fa5594c1195d18b2b4aff99675b0739ed6bd61024b26562e0cca18c8f993efdc82
   languageName: node
   linkType: hard
 
@@ -2968,21 +2983,21 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gscan@npm:4.0.2":
-  version: 4.0.2
-  resolution: "gscan@npm:4.0.2"
+"gscan@npm:4.1.0":
+  version: 4.1.0
+  resolution: "gscan@npm:4.1.0"
   dependencies:
-    "@sentry/node": 6.2.5
-    "@tryghost/pretty-cli": 1.2.16
-    "@tryghost/zip": 1.1.11
+    "@sentry/node": 6.7.1
+    "@tryghost/pretty-cli": 1.2.18
+    "@tryghost/zip": 1.1.12
     bluebird: 3.7.2
-    chalk: 4.1.0
+    chalk: 4.1.1
     common-tags: 1.8.0
     express: 4.17.1
-    express-hbs: 2.3.5
+    express-hbs: 2.4.0
     fs-extra: 9.1.0
-    ghost-ignition: 4.6.2
-    glob: 7.1.6
+    ghost-ignition: 4.6.3
+    glob: 7.1.7
     lodash: 4.17.21
     multer: 1.4.2
     pluralize: 8.0.0
@@ -2992,7 +3007,7 @@ fsevents@^1.2.7:
     validator: 13.0.0
   bin:
     gscan: bin/cli.js
-  checksum: d3c542f116cfe62d829c37c746fc237295439f2fc2cd4f553666189861b97e00ccc5a20be8536d2cf0618dd63ee12f288fe7abad5c4b8e1618679d4be769e4a1
+  checksum: 159af0e98c2a3df8fabc34a0a8d2d79ca4e4eafd869ac4cf16c5c9e1e058fdd5dfbb23180b4aa0cebfafb6478da6b2dc6275f3971e503bf328df096f7ae0a82f
   languageName: node
   linkType: hard
 
@@ -4749,7 +4764,7 @@ fsevents@^1.2.7:
     autoprefixer: 10.2.5
     beeper: 2.1.0
     cssnano: 5.0.5
-    gscan: 4.0.2
+    gscan: 4.1.0
     gulp: 4.0.2
     gulp-livereload: 4.0.2
     gulp-postcss: 9.0.0
@@ -6884,7 +6899,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"sywac@npm:1.3.0":
+"sywac@npm:^1.3.0":
   version: 1.3.0
   resolution: "sywac@npm:1.3.0"
   checksum: cea7c087a5fbc97076e69a033f92548f1f0447c30da211088ddc7817d9a8c6882923b26cd9c52779a9598beae7bbfc3ccbd514ac8fae2e84ddf0c44c74592e98
