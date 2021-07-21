@@ -4757,7 +4757,7 @@ fsevents@^1.2.7:
     gulp-uglify: 3.0.2
     gulp-watch: 5.0.1
     gulp-zip: 5.1.0
-    postcss: 8.3.0
+    postcss: 8.3.6
     postcss-color-mod-function: 3.0.3
     postcss-easy-import: 3.0.0
     pump: 3.0.0
@@ -5712,14 +5712,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.0":
-  version: 8.3.0
-  resolution: "postcss@npm:8.3.0"
+"postcss@npm:8.3.6":
+  version: 8.3.6
+  resolution: "postcss@npm:8.3.6"
   dependencies:
     colorette: ^1.2.2
     nanoid: ^3.1.23
     source-map-js: ^0.6.2
-  checksum: 438f9b9ea5a1ad66a36c944c77a55218ea0ac9d07ba63891854e8597b1a3b7710caa25d01f7783a6b8f4a3a8d52c295da422b92e546b37d6896909c19c7d4975
+  checksum: 515c26472861ce0f3b0a7945b9ac4732756d2aab6b12950137f72c7c6d90967136ba56e878815edcbf132c5643005dad1e9bbcb14139a948802af10245a8f6e3
   languageName: node
   linkType: hard
 
